@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  width: 100%;
+  background-color: white;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+#header.logo {
+  line-height: 100px;
+  float: left;
+  
+}
+
+#header nav a {
+  text-decoration: none;
+  display: inline-block;
+  color:#30211a;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+#header nav {
+  line-height: 100px;
+  float: right;
+}
+
+#header nav a:hover {
+  background-color: red;
+  border-radius: 50px;
+}
