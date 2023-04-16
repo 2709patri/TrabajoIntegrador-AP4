@@ -1,0 +1,29 @@
+body {
+  margin-top: 0;
+  padding: 0;
+}
+.seccion {
+  background-image: url("../assets/img/xl-pizza.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.contenedor {
+  color: #30211a;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 25px;
+  width: 400px;
+ 
+}
+
+.conocer {
+  border: 3px;
+  display: inline;
+  padding: 100px 100px;
+  text-decoration: none;
+  box-shadow: 0 1px apx grey;
+}
+
+.center-content {
+  text-align: center;
+}

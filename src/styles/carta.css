@@ -1,0 +1,31 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .menu-restaurante{
+    color: #30211a;  
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: column;
+  }
+  
+  
+  @media (max-width:768px){
+    .columns{
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+  
+  @media (max-width:480px){
+    .columns{
+      grid-template-columns: repeat(1,1fr);
+    }
+  }

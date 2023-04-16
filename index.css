@@ -1,0 +1,102 @@
+body, html{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contenedor-titulo h1,h2{
+     color: white;
+    
+  }
+  
+  .contenedor-titulo{
+    height: 100vh;
+  }
+  
+  .centrar-contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   
+  }
+  .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 2;
+  }
+  .fondo-perrito{
+    background: url("./src/assets/img/xl-burger.jpg");
+  }
+  
+  .fondo-metro{
+    background: url("./src/assets/img/xl-sanwdich.jpg");
+  }
+  .contenedor-titulo .mamaaaa{
+    content:div;
+    justify-content: center;
+   
+  }
+  
+  .separador{
+    height: 200px;
+    padding: 30px;
+    font-size: larger;
+    font-family: cursive fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .separador,h1 {
+    font-size: medium;
+    text-align: center;
+    
+  }
+  
+  .mamaaaa{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  #header{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  .contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  #header.logo {
+  line-height: 100px;
+  float: left;
+ 
+  }
+  #header nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+   #header nav {
+    line-height: 100px;
+    float: right;
+  }
+ 
+  #header nav a:hover{
+  background-color: red;
+  border-radius: 50px;
+  }
+

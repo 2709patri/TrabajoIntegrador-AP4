@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.seccion {
+  background-image: url("../assets/img/empanadas.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.seccion,h3,h1,h2 {
+  color: bisque;
+}
+.form {
+  width: 300px;
+  background-color: transparent;
+  padding: 30px;
+  margin: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(44, 39, 19)te;
+  font-size: 15px;
+  
+}
+
+.btn-btn-yellow {
+  color:  white;
+  background-color: rgba(255, 0, 0, 0.685);
+}
+
+.center-content {
+  text-align: left;
+  color:white;
+}
